@@ -45,7 +45,6 @@ pull_data <- function(looks = cctimes::look_list
 #' Given as an integer (1 = Sunday , 2 = Monday , etc...).
 #' @return A data table (week_beginning) of dates that correspond to the first
 #' date in each week.
-#' @import lubridate
 
 create_week_list <- function(start_date = as.Date('2016-01-01')
                              , end_date = Sys.Date()

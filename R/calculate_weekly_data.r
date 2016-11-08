@@ -10,5 +10,5 @@
 
 calculate_weekly_progress_rates <- function(mis = made_it_scores
                                             , week_sequence){
-  
+  'hi'  
 }
